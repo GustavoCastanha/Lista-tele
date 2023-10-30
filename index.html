@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contatos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Lista de Contatos</h1>
+        <form id="formContato">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="text" id="telefone" placeholder="Telefone" required>
+            <input type="text" id="cep" placeholder="CEP" maxlength="8">
+            <input type="text" id="logradouro" placeholder="Logradouro">
+            <input type="text" id="bairro" placeholder="Bairro">
+            <input type="text" id="localidade" placeholder="Cidade">
+            <input type="text" id="uf" placeholder="UF">
+            <input type="file" id="foto" accept="image/*">
+            <button type="submit">Adicionar</button>
+        </form>
+        <ul id="listaContatos"></ul>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
